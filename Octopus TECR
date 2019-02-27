@@ -1,0 +1,5 @@
+(function(scope) {
+  if ($im.request.data.CRTypeName === 'Octopus Deploy') {
+    $('#' + getComponent('CRType_ID').id + '-labelTextEl').prepend('<img src="https://octopus.com/images/company/Logo-Blue_140px_rgb.png" role="presentation" class="" style="width: 16px;height: 18px;margin-right: 5px;">');
+  }
+})(this);
